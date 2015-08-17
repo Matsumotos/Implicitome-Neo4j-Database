@@ -1,0 +1,9 @@
+Used to get subject and object data, respectively, from the Implicitome database in MySQL
+
+    select distinct sub_name, sub_id from tuples into outfile '/tmp/subs.csv' fields terminated by '\t';
+    
+    select distinct obj_name, obj_id from tuples into outfile '/tmp/objs.csv' fields terminated by '\t';
+
+Used to get relationship data from the Implicitome database in MySQL
+
+    select sub_name, obj_name, score, percentile from tuples into outfile '/tmp/rels.csv' fields terminated by '\t';
