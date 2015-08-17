@@ -2,7 +2,7 @@
 
 This database contains data from Implicitome.  There are 28535 subjects and objects, 202571584 relationships, and 405200238 properties.  The import takes approximately 10 minutes.
 
-The database is located in /home/sachi/neo4j-community-2.2.3/data/implicitome.db
+The database is located in /home/sachi/neo4j-community-2.2.3/data/implicitome.db.  Other relevant files are located in /home/sachi/implicitome.
 
 ### Database Structure
 
